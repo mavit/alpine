@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Alpine
+GenericName=Email
+Comment=Program for Internet News and Email
+Exec=alpine-url-handler %u
+Icon=alpine
+Terminal=true
+Type=Application
+Categories=Network;Email;
+StartupNotify=true
+MimeType=x-scheme-handler/mailto;

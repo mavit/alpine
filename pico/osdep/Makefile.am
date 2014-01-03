@@ -18,3 +18,12 @@ libpicoosd_a_SOURCES = altedit.c chkpoint.c color.c filesys.c fsync.c getkey.c m
 	newmail.c popen.c raw.c read.c shell.c signals.c spell.c terminal.c truncate.c tty.c
 
 AM_CPPFLAGS = -I@top_builddir@/include -I@top_srcdir@/include
+
+desktopdir = $(datadir)/applications
+desktop_DATA = pico.desktop
+
+icon32dir = $(datadir)/icons/hicolor/32x32/apps
+icon32_DATA = icons/32x32/pico.png
+
+appdatadir = $(datadir)/appdata
+appdata_DATA = pico.appdata.xml

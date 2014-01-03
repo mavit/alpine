@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2013 Peter Oliver <rpm@mavit.org.uk> -->
+<application>
+ <id type="desktop">pico.desktop</id>
+ <licence>CC0</licence>
+ <name>Pico</name>
+ <summary>Simple text editor in the style of the Alpine Composer</summary>
+ <description>
+  <p>
+    Pico is a simple, display-oriented text editor based on the Alpine
+    email message composer.  Available commands are displayed at the
+    bottom of the screen, and context-sensitive help is provided.
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default" width="619" height="342">http://mavit.fedorapeople.org/appdata/pico-screenshot.png</screenshot>
+ </screenshots>
+ <url type="homepage">http://patches.freeiz.com/alpine/</url>
+ <updatecontact>alpine-appdata@mavit.org.uk</updatecontact>
+</application>

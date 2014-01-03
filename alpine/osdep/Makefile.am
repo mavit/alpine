@@ -20,3 +20,17 @@ libpineosd_a_SOURCES = chnge_pw.c debuging.c diskquot.non.c execview.c fltrname.
 	termin.unx.h termout.gen.h termout.unx.h windlg.h
 
 AM_CPPFLAGS = -I@top_builddir@/include -I@top_srcdir@/include
+
+dist_bin_SCRIPTS = alpine-url-handler
+
+desktopdir = $(datadir)/applications
+desktop_DATA = alpine.desktop
+
+icon32dir = $(datadir)/icons/hicolor/32x32/apps
+icon32_DATA = icons/32x32/alpine.png
+
+icon192dir = $(datadir)/icons/hicolor/192x192/apps
+icon192_DATA = icons/192x192/alpine.png
+
+appdatadir = $(datadir)/appdata
+appdata_DATA = alpine.appdata.xml

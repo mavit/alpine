@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2013 Peter Oliver <rpm@mavit.org.uk> -->
+<application>
+ <id type="desktop">alpine.desktop</id>
+ <licence>CC0</licence>
+ <name>Alpine</name>
+ <summary>Program for Internet News and Email</summary>
+ <description>
+  <p>
+    Alpine is a fast, easy to use email client that is suitable for both
+    the inexperienced email user as well as for the most demanding of
+    power users.
+  </p>
+  <p>
+    Alpine is based on the Pine® Message System, which was developed at
+    the University of Washington, and was popular during the 1990s.  It
+    is a console application, and can be learned by exploration and the
+    use of context-sensitive help.
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default" width="619" height="342">http://mavit.fedorapeople.org/appdata/alpine-folder.png</screenshot>
+  <screenshot width="619" height="342">http://mavit.fedorapeople.org/appdata/alpine-main-menu.png</screenshot>
+ </screenshots>
+ <url type="homepage">http://patches.freeiz.com/alpine/</url>
+ <updatecontact>alpine-appdata@mavit.org.uk</updatecontact>
+</application>
